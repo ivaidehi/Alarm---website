@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alaram clock</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <div id="alarmClock">
+            <img src="asset/clock.png" alt="" style="width: 300px;">
+            <form>
+                <div id="currentTime">
+                    <h3 id="time">00:00:00 AM/PM</h3>
+                </div>
+                <div id="alarmTime">
+                    <select id="hrs">
+                        <option>Hours </option>
+                    </select>
+                    <select id="mins">
+                        <option>Minutes </option>
+                    </select>
+                    <select id="amPm">
+                        <option selected hidden>AM/PM</option>
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                    <div id="showAlarmTime" style="text-align: center; margin:20px"><img  style="width: 30px;" src="asset/alarm.png" alt=""></div>
+                </div>
+            </form>
+            <form>
+                <button id="clearAlarmBtn">Clear alarm</button>
+            </form>
+            <button id="setAlarmBtn">set alarm</button>
+            <br>
+            <div style="font-size: 5px;">
+                &copy; Copyrights 2022. ALARM CLOCK. All rights reserved.
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+
+</html>

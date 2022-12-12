@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+
+body{
+      display: flex;
+      justify-content: center;
+      font-family: 'Lexend Giga';
+      background: url("https://c4.wallpaperflare.com/wallpaper/967/372/978/gray-simple-background-gradient-wallpaper-thumb.jpg");
+      background-size: cover;
+      background-blend-mode: darken;
+}
+#alarmClock{
+      position: absolute;
+      display: flex;
+      top: 40px;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      background-color: rgba(248, 248, 255, 0.909);
+      padding: 20px;
+      border: 2px solid azure;
+      border-radius: 10px;
+      box-shadow: rgb(0, 0, 0) 0px 0px 50px 0px;
+}
+#currentTime{
+      display: flex;
+      justify-content: center;
+       font-size: larger;
+}
+select{
+      width: 100px;
+      height: 80px;
+      padding: 10px;
+      margin: 15px;
+      font-family: 'Share Tech Mono';
+      box-shadow: rgba(0, 0, 0, 0.687) 0px 8px 6px 2px;
+      /* right  bottom  spread size */
+      border-radius: 7px;
+      color: gray;
+      border: 2px solid rgb(90, 89, 89);
+      /* border: 2px solid rgb(101, 93, 93); */
+}
+button{
+      width: 370px;
+      height: 40px;
+      margin: 10px;
+      font-size: large;
+      font-family: 'Hind Siliguri';
+      border: none;
+      border-radius: 6px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(40, 39, 37);
+      box-shadow: rgba(0, 0, 0, 0.463) 0px 5px 7px 2px;
+}
